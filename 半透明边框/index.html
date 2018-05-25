@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>css透明边框</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<style>
+		body{
+			background: url("../img/315386.jpg") no-repeat center;
+		}
+		div{
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%,-50%);
+			width: 300px;
+			padding: 50px 30px;
+			background-color: #fff;
+			background-clip: padding-box;
+			border: 6px solid rgba(255, 255, 2555, .5);
+		}
+	</style>
+</head>
+<body>
+	<div>
+		我这个是一个透明边框哦
+	</div>
+</body>
+</html>

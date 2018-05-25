@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>多重边框</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<style>
+		body{
+			background: url("../img/315386.jpg") no-repeat center;
+		}
+		div{
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%,-50%);
+			width: 300px;
+			padding: 50px 30px;
+      background-color: #fff;
+      box-shadow: 0 0 0 5px red,
+      0 0 0 10px gray,
+      0 0 0 15px gainsboro;
+
+		}
+	</style>
+</head>
+<body>
+	<div>
+		我这个是一个多重边框哦
+	</div>
+</body>
+</html>
