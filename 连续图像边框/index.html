@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>连续图像边框</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<style>
+		html,body{
+			height: 100%;
+			background: url('../img/b0735b7fb02b174207b5af1d28dfebe4.jpg')no-repeat center;
+		}
+		div{
+			position: absolute;
+			top: 0;
+			right: 0;
+			left: 0;
+			bottom: 0;
+			margin: auto;
+			width: 600px;
+			height: 200px;
+			padding: 1em;
+			border: 1em solid transparent;
+			background: linear-gradient(white, white) padding-box,
+			repeating-linear-gradient(-45deg,
+			red 0, red 12.5%,
+			transparent 0, transparent 25%,
+			#58a 0, #58a 37.5%,
+			transparent 0, transparent 50%)
+			0 / 5em 5em;
+			background-color: rgba(255, 255, 255, .8);
+			transform: rotate(-8deg);
+		}
+		.main{
+			font-size: 12px;
+			color: #666;
+			text-indent: 2em;
+		}
+		.author{
+			text-align: right;
+			font-size: 18px;
+			font-weight: bold;
+			margin-top: 5em;
+		}
+	</style>
+</head>
+<body>
+		<div >
+			<p class="main">牛皮纸（kraftpaper），用作包装材料。强度很高。通常呈黄褐色。半漂或全漂的牛皮纸浆呈淡褐色、奶油色或白色。定量80～120g/m2。裂断长一般在6000m以上。抗撕裂强度、破裂功和动态强度很高。多为卷筒纸，也有平板纸。采用硫酸盐针叶木浆为原料，经打浆，在长网造纸机上抄造而成。可用作水泥袋纸、信封纸、胶封纸装、沥青纸、电缆防护纸、绝缘纸等。</p>
+			<p class="author">
+					<span>牛皮纸</span>
+			</p>
+			
+		</div>
+</body>
+</html>
